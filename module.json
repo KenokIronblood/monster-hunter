@@ -1,0 +1,15 @@
+{
+    "id": "monster-hunter",
+    "title": "Monster Hunter - A module for hunting and Carving Monsters",
+    "description": "A simple module created as a demo for working in the Foundry Virtual Tabletop framework.",
+    "authors": [
+      {
+      "name": "Kenok_Ironblood"
+      }
+    ],
+    "version": "0.0.1",
+    "compatibility": {
+      "minimum": "11",
+      "verified": "11"
+    }
+  }
