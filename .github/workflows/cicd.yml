@@ -15,8 +15,8 @@ jobs:
         mkdir -p ~/.ssh
         echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
         chmod 600 ~/.ssh/id_ed25519
-        ssh-keyscan -H <your-raspberry-pi-ip> >> ~/.ssh/known_hosts
+        ssh-keyscan -H ${{ secrets.HOST_IP }} >> ~/.ssh/known_hosts
 
     - name: Deploy code via SSH
       run: |
-        ssh pi@<your-raspberry-pi-ip> "cd /path/to/your/repo && git pull origin main"
+        ssh pi@${{ secrets.HOST_IP }} "cd /path/to/your/repo && git pull origin main"
