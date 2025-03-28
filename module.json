@@ -7,9 +7,11 @@
       "name": "Kenok_Ironblood"
       }
     ],
-    "version": "0.0.1",
+    "version": "0.0.2",
     "compatibility": {
       "minimum": "11",
       "verified": "11"
-    }
+    },
+    "download": "https://github.com/KenokIronblood/monster-hunter/archive/refs/tags/0.0.2.zip",
+	  "manifest": "https://raw.githubusercontent.com/Kenok_Ironblood/monster-hunter/main/module.json"
   }
